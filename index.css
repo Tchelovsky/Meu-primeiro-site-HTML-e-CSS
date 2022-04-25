@@ -1,0 +1,113 @@
+body ul li  {
+	margin: 0px; /* Tira a margem*/
+	padding: 0px; /*Faz o preenchimento dentro do conteiner/bloco*/
+	font-size: 1.2rem; /*tira os bolets*/
+	font-family: sans-serif; /*altera a fonte*/
+	list-style: none; /*tira os sublinhados*/
+	;
+}
+
+body {
+	background: #C0C0C0; /*Muda a cor do fundo da pagina ou conteiner*/
+	border: black solid 15px;/*coloca uma borda solida*/
+}
+
+a {
+    text-decoration: none; /* Tira a decoração do texto*/
+	color: white; /* Muda a cor da fonte*/
+ 
+}
+
+h1 {
+	text-align: center; /* Alinha o teste ao centro*/
+	margin: 10px; /* Da uma margem de 10 pixel*/
+	background:#4F4F4F; /*Muda a cor do fundo da pagina ou conteiner*/
+	border: black solid 5px; /*coloca uma borda solida*/
+
+}
+
+img {
+	border: black solid 5px; /*coloca uma borda solida*/
+	max-width: 100%; /* Coloca uma largura maxima*/
+	display: block; /*faz com que o elemento HTML seja renderizado como bloco, tal como os parágrafos e os cabeçalhos*/
+    width: 280px; /*Largura*/
+	height: 200px; /*Altura*/
+}
+
+header {
+	background: #4F4F4F; /*Muda a cor do fundo da pagina ou conteiner*/
+	display: flex; /*elementos responsivos dentro de um contêiner sejam organizados automaticamente*/
+	flex-wrap: wrap; /* flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linha*/
+	justify-content: space-between; /* Separa os itens um do lado do outro*/
+	padding: 10px; /* Espaço entra a borda e o top da página*/
+	align-items: center; /*Alinha os itens entre eles, deixa na mesma altura*/
+	margin-top: 10px; /* Margin do topo da pagina*/
+	margin-left: 10px; /*Margin do lado esquerdo da página*/
+	margin-right: 10px; /*Margin do lado direito da página*/
+	border: black solid 5px; /*coloca uma borda solida*/
+
+}
+
+header a {
+
+	font-family: sans-serif;  /*altera a fonte*/
+
+}
+
+header a:hover{
+	background: #1C1C1C; /*Muda a cor do fundo da pagina ou conteiner*/
+    transform: scale(1.0); /*Faz efeito de botão em transição*/
+}
+
+.menu {
+	display: flex; /* Deixa o menu na horizontal*/
+
+}
+
+.menu li {
+	margin-left: 10px; /*Margin do lado esquerdo da página*/
+	border: #000000 solid 5px; /*coloca uma borda solida*/
+	list-style: none; /*tira os sublinhados*/
+	font-family: sans-serif; /*altera a fonte*/
+
+}
+
+.menu li a {
+	display: block; /*faz com que o elemento HTML seja renderizado como bloco, tal como os parágrafos e os cabeçalhos*/
+	padding: 10px; /*Faz o preenchimento dentro do conteiner/bloco*/
+}
+
+.menu li a:hover {
+	background: #1C1C1C; /*Muda a cor do fundo da pagina ou conteiner*/
+    transform: scale(1.0);/*Faz  efeito de transição suave*/
+}
+
+
+.flex {
+	display: flex;  /*elementos responsivos dentro de um contêiner sejam organizados automaticamente*/
+	flex-wrap: wrap; /* flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linha*/
+	max-width: 800px; /* Conteiner com no máximo 800 pixel*/
+	margin: 0 auto; /*Alinha o conteiner ao centro*/
+}
+
+.flex p {
+
+	text-align: center; /* Alinha o texto ao centro do conteiner*/
+	border: #000000 solid 5px;  /*coloca uma borda solida*/
+	font-family: sans-serif; /*altera a fonte*/
+	background: #D8BFD8; /*Muda a cor do fundo da pagina ou conteiner*/
+	left: 4%; /*Direciona o conteiner a esquerda*/
+    margin-right: -4%; /*Direciona o conteiner a direita*/
+}
+
+.flex > div {
+	flex: 1 1 200px; /* Organiza os conteiber*/
+	margin: 10px; /*Alinha o conteiner*/
+}
+
+footer {
+	border: solid black 5px; /*coloca uma borda solida*/
+	text-align: center; /* Alinha o texto ao centro do conteiner*/
+	margin: 10px;  /*Alinha o conteiner*/
+	background: #4F4F4F; /*Muda a cor do fundo da pagina ou conteiner*/
+}
